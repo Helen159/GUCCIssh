@@ -1,0 +1,353 @@
+/* 内容 */
+.head{
+    width: 100%;
+    height: 563px;
+    margin-bottom: 50px;
+    position: relative;
+
+}
+.head .video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.head .title{    
+    position: relative;
+    /* float: left; */
+    margin: 0 auto;
+    top: 230px;
+    color: white;
+    width: 320px;
+    height: 30px;
+    text-align: center;
+    z-index:1;
+}
+.head .title span{    
+    font-size: 56px;
+}
+.head .video video{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 1;
+}
+
+
+/* 列表内容 */
+.cont{
+    width: 97%;
+    height: 1351px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    /* overflow: hidden; */
+}
+.cont .cleft{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.cont .cleft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.cont .cleft .l1{
+    text-align: center;
+}
+/* .cont .cleft .l1:hover{
+   background-color: white;
+
+} */
+.cont .cleft .l1 a{
+    color: black;
+}
+.cont .cleft .l1 a img{
+    width: 450px;
+    height: 900px;
+}
+
+.cont .cright {
+    width: 50%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.cont .cright .top a img{
+    width: 600px;
+    height: 600px;
+}
+.cont .cright .top a{
+    color: black;
+}
+/* .cont .cright .button{
+    float: none;
+} */
+.cont .cright .button a img{
+    width: 600px;
+    height: 600px;
+}
+.cont .cright .button a{
+    color: black;
+}
+
+
+/* 真列表 */
+.automatic{
+    width: 100%;
+    text-align: center;
+    color: black;
+    /* position: relative; */
+}
+.automatic .content{
+    width: 100%;
+    /* float: left; */
+}
+.automatic .content{
+    width: 100%;
+    /* float: left; */
+    margin-left: 26px;
+}
+.automatic .content li{
+    width: 24%;
+    height: 471px;
+    float: left;
+    margin: 0 auto;
+    color: black;
+    background-color: #f5f5f5;
+    border: 1px solid white;
+}
+.automatic .content li a{
+    color: black;
+}
+.automatic .content li img{
+    width: 100%;
+    height: 70%;
+}
+
+/* 分页 */
+.fen{
+    width: 100%;
+    height: 20px;
+    background-color: pink;
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* 导航 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    width: 100%;
+    height: 92px;        
+    position: absolute;
+    z-index: 999;
+    font-size: 11px;
+    top: 0px;
+}
+
+
+.navigation:hover{
+    background-color: black;
+}
+
+.navigation .service-logo-find{
+    width: 97%;        
+    height: 40px;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .service-logo-find  li{
+    
+    box-sizing: border-box;
+    float: left;  
+    line-height: 69px;  
+    margin-right:10px ;
+}
+
+.navigation .service-logo-find  a,li{
+    color:white ;
+}
+.navigation .service-logo-find .logo{
+    width: 160px;
+    height: 26px;
+    position: absolute;
+    left: 700px;
+    top: -13px;
+    
+}
+.navigation .service-logo-find .logo a{
+    width: 160px;
+    height: 26px;
+    line-height: 137px;    
+}
+.navigation .service-logo-find .logo img{
+    width: 160px;
+    height: 26px;
+    line-height: 137px;    
+}
+.navigation .service-logo-find .find{
+    z-index: 999;
+}
+.navigation .service-logo-find .find i{
+    color: #666;
+}
+.navigation .service-logo-find .find li:hover i{
+    color: white;
+}
+
+
+
+.navigation .news{
+    width: 100%;
+    top: 11px;
+}
+
+.navigation .news  ul{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation .news  ul li{
+    float: left;
+    font-size: 17px;
+    margin:0 10px;
+    
+}
+
+.navigation .news  ul li span{
+    width:0;
+    height:0;
+    border-width:0 3px 3px;
+    border-style:solid;
+    border-color:transparent transparent #FFF;/*透明 透明  灰*/
+    margin:0px auto;
+    position:relative;
+    text-align: center;
+    display: none;
+}
+
+.navigation .news a {
+    color: white;
+
+}
+/* 页脚 */
+
+    .footer{
+        width: 100%;
+        height: 407px;
+        background-color: #1b1b1b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .footer-content{
+        width: 80%;
+        height: 348px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* left */
+    .footer .footer-content .left{
+        width: 810px;
+        height: 347px;
+        font-size: 11px;
+        position: relative;
+    }
+    .footer .footer-content .left-li1{
+        float: left;
+        margin-right: 80px;
+    }
+    .footer .footer-content .left-li1 .left-one{
+        margin-bottom: 20px;
+        font-size: 12px;
+        color: #666;
+    }
+    .footer .footer-content .left-li1 ul li {
+        margin-bottom: 11px;
+    }
+    .footer .footer-content .left-li1 ul li i{
+        color: #666;
+    }
+    .footer .footer-content .left-li1 ul li a{
+        color: #e5dfd9;
+    }
+    .footer .footer-content .left-li1 ul li:hover a{
+        color: white;
+    }
+    /* 最后一个li1 */
+    .footer .footer-content .lefts .li-last{
+        display: block;
+        float: right;
+    }
+    /* 版权信息 */
+    .footer .footer-content .left .copyright{
+        position: absolute;
+        bottom: 0px;
+    }
+    .footer .footer-content .left .copyright a{
+        color: #666;
+    }
+    .footer .footer-content .left .copyright span{
+        margin-right: 45px;
+    }
+
+
+    /* right */
+    .footer .footer-content .right{
+        width: 405px;
+        height: 312px;
+        margin-top: -34px;
+    }
+    .footer .footer-content .right div{
+        margin-bottom: 60px;
+        font-size: 12px;
+        color: #666;
+        position: relative;
+        float: left;
+        margin-right: 10px;
+
+    }
+    .footer .footer-content .right div:nth-child(2) input{
+        width: 100px;
+    }
+    .footer .footer-content .right div input{
+        width: 180px;
+        height: 28px;
+        /* background-color: #000; */
+        border: 0;
+        outline:none
+        
+    }
+
+    .footer .footer-content .right div button{
+        width: 28px;
+        height: 28px;
+        /* position: absolute;
+        left: 0px; */
+     /* 鼠标移入变手 */
+        cursor:pointer;
+    }

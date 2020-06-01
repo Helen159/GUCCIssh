@@ -1,0 +1,37 @@
+    .reg{
+        width: 500px;
+        height: 500px;
+        margin: 100px auto;
+        background-color: pink; 
+        text-align: center;
+    }
+    #userpwd{
+        margin: 50px 0;
+    }
+
+    .reg button{
+        width: 100px;
+        height: 30px;
+        background-color: palegreen;
+        border-radius: 30px;
+        outline:none;
+        margin-top: 20px;
+    }
+    .reg #vc1{
+        margin-top:50px ;
+    }
+    .reg #vc2{
+        display: block; 
+        width: 100px;
+        height: 20px;
+        margin-top: 50px;
+        float: right;
+        background-color: red;
+    }
+    .code{
+        width: 80px;
+        height: 25px;
+        margin: 10px auto;
+        background-color: white;
+        border: 1px solid red;
+    }
